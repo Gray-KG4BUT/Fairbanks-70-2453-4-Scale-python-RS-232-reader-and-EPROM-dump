@@ -8,7 +8,7 @@ Configuration
 
 By default, the script attempts to open `COM1` at `9600` baud. If your USB-to-Serial adapter or hardware is connected to a different port (e.g., `COM3`), open `scale_reader.py` and change the port string on this line:
 
-ser = serial.Serial('COM #YOUR PORT', 9600, timeout=2)
+ser = serial.Serial('COM3', 9600, timeout=2)
 
 Right-click the Start menu icon. Select Device Manager. Scroll down and double-click Ports (COM & LPT). Right-click your specific COM port (e.g., USB Serial Port COM3). Click Properties. and put in these settings: Data Bits: 7. Parity: Odd. Baud Rate: 9600. Stop Bits: 2.
 
