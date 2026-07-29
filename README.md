@@ -21,4 +21,4 @@ you will need to install python, you can do that by going here: https://www.pyth
 
 you will need to install pyserial you can do that by doing this in command prompt: python -m pip install pyserial
 
-the 70-2453-40 use the MBM27C128-25 EPROM (Erasable Programmable Read-Only Memory) for the firmware and the 24C01A eeprom (Electrically Erasable Programmable Read-Only Memory) for calibration and user set preferences (I only have the dump of the firmware). it utilizes the M37451SFP microprocessor.
+the 70-2453-40 use the MBM27C128-25 EPROM (Erasable Programmable Read-Only Memory) for the firmware and the 24C01A EEPROM (Electrically Erasable Programmable Read-Only Memory) for calibration and user set preferences (I only have the dump of the firmware). it utilizes the M37451SFP microprocessor.
